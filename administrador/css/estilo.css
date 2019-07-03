@@ -1,0 +1,95 @@
+f.titulo-de-pagina{
+    text-align: center;
+}
+
+.errores{
+    padding: 0 30px;
+    color: #A94442;
+    background: #F2DEDE;
+    border: none;
+    border-radius: 5px;
+}
+
+.error{
+    color: #F00;
+}
+
+.registro {
+
+    font-size: 1.5em;
+    text-align: center;
+    color: #000000;
+}
+
+.btn-success {
+    color: #ffffff;
+    background-color: #cd6701;
+    border-color: #cd6701;
+}
+
+.btn-danger {
+    color: #ffffff;
+    background-color: #cd6701;
+    border-color: #cd6701;
+}
+
+.navbar-inverse {
+    background-color: #00315b;
+    border-color: #00315b;
+}
+.navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0;
+}
+@media (min-width: 768px)
+.navbar-fixed-bottom, .navbar-fixed-top {
+    border-radius: 0;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+ .campo-contenedor{
+    position: relative;
+}
+
+.campo-contenedor .glyphicon{
+    position: absolute;
+    padding: 15px;
+    font-size: 16px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.campo-contenedor .icono-izquierdo{
+    left: 0;
+}
+
+.campo-contenedor .icono-derecho{
+    right: 0;
+}
+
+.campo-contenedor input{
+    padding: 0 40px;
+}
+
+.icono-rojo{
+    color: #F00;
+}
+
+.icono-verde{
+    color: #0F0;
+}
+
+.invalido{
+    background: #FCC;
+}
+
+.valido{
+    background: #CFC;
+}/*
+buscador*/
